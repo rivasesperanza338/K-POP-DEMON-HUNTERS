@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Characters — Huntrix</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #0a0b1d 0%, #1b0240 100%);
+      color: #f2f2f2;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0,0,0,0.6);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #b76dff;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #f2f2f2;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #b76dff;
+    }
+
+    .banner {
+      height: 50vh;
+      background: linear-gradient(rgba(20,0,40,0.6), rgba(5,0,20,0.8)), url('https://i.imgur.com/5Iu7Z9e.jpeg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      color: #b76dff;
+    }
+
+    .characters {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .character-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .char-card {
+      background: #1a1030;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .char-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .char-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .char-card h3 {
+      font-size: 1.6rem;
+      color: #b76dff;
+      margin-bottom: 10px;
+    }
+
+    .char-card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      background: #000;
+      margin-top: 60px;
+    }
+  </style>
+<style>
+  .characters { padding: 2rem; text-align: center; }
+  .char-grid { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+  .char-card { background: rgba(255,255,255,0.1); padding: 1.2rem; border-radius: 12px; backdrop-filter: blur(6px); width: 250px; }
+  .char-card h3 { margin-top: 0; font-size: 1.4rem; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">K‑Pop Demon Hunters</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#">Characters</a>
+      <a href="#">Lore</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Huntrix Characters</h1>
+  </section>
+
+  <section class="characters">
+    <div class="character-grid">
+
+      
+
+      
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 K‑Pop Demon Hunters — All Rights Reserved
+  </footer>
+<section class="characters">
+  <h2>Meet the Characters</h2>
+  <div class="char-grid">
+    <div class="char-card">
+      <h3>Rumi</h3>
+      <p>The charismatic leader gifted with powerful spirit magic, guiding Huntrix both onstage and in battle.</p>
+    </div>
+    <div class="char-card">
+      <h3>Mira</h3>
+      <p>The group’s choreographer and a fierce combat expert, balancing grace with deadly precision.</p>
+    </div>
+    <div class="char-card">
+      <h3>Zoey</h3>
+      <p>A talented lyricist and knife combat specialist known for her sharp instincts and sharper blades.</p>
+    </div>
+  </div>
+</section>
+</body>
+</html>
